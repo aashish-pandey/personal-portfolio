@@ -1,0 +1,264 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+main {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+section {
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* ... (Previous CSS styles) ... */
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px; /* Add padding on both sides */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+/* Style the scrollbar track and thumb */
+::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); /* Set the track's background color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Set the color of the thumb */
+    border-radius: 4px; /* Add rounded corners to the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change thumb color on hover */
+  }
+  
+
+
+  
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.project-list h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.project-list p {
+    font-size: 1rem;
+}
+
+.project-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.project-list a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.profile-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use Flexbox for list items */
+}
+
+.profile-list li {
+    margin-right: 20px; /* Add spacing between items */
+}
+
+.profile-list a {
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+    display: flex; /* Use Flexbox for link and icon alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.profile-list a:hover {
+    color: #005983;
+}
+
+.profile-list a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* .ring-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+} */
+
+
+
+.cursor-ring {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border: 10px solid #bd8e8e; /* Gray border color */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0.2;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 1); /* Box shadow */
+}
+
+.inner-ring {
+    width: 120px; /* Adjust the size as needed */
+    height: 120px; /* Adjust the size as needed */
+    border: 10px solid #c2ce90; /* Gray border color */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 1); /* Box shadow */
+}
+
+
+
+.inner-ring-2 {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 1); /* Box shadow */
+}
+
+
+
+.inner-ring-4 {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 1); /* Box shadow */
+}
+
+
+.inner-ring-6 {
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 80px 80px rgba(0, 0, 0, 1); /* Box shadow */
+}
+
+
+
+
+
+
+
