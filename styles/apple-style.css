@@ -335,6 +335,20 @@ footer {
 }
 
 @media (max-width: 768px) {
+    
+    main, .mainSection{
+        min-width: 94%;
+        margin-left: 3%;
+    }
+    .imgSection{
+        flex: 0;
+    }
+
+    .skill-button{
+        min-width: 90%;
+        max-width: 90%;
+    }
+
     .skills-container {
         flex-direction: column;
         align-items: center;
